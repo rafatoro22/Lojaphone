@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1272px;
+ 
+}
+
+table, tr, th, td {
+    border: solid 1px;
+}
+
+nav ul {
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    width: 1272px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    padding: 0 12px;
+}
+
+main {
+    padding: 12px;
+}
+/***** alert *****/
+.alert {
+    padding: 12px;
+    margin: 12px 0;
+    text-align: center;
+    background-color: lightgray;
+}
+.footer {
+    background-color: black;
+    color:white;
+    position: absolute;
+    width: 1272px;
+}
+.col-md-4 {
+    margin-top: 10px;
+    text-align: center;
+}
+#banner {
+    margin-top: 0px;
+ 
+}
+
+
