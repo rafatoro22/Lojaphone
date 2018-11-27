@@ -34,6 +34,15 @@
                 }
             }
             ?>
+             <?php
+             if (!empty($_SESSION["auth"])) {
+                if ( $_SESSION["auth"]["role"] == "admin") {
+        ?>
+            <li><a href="./produto/compras">Compras</a></li>
+             <?php
+                }
+            }
+            ?>
             <li><a href="./login/index">Login</a></li>
             <li><a href="./login/logout">Logout</a></li>
         </ul>

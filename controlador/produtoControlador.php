@@ -47,3 +47,10 @@ function visualizar($idProduto) {
     $dados['produto'] = pegarProdutoPorId($idProduto);
     exibir("produto/visualizar", $dados);
 }
+/** admin */
+
+function compras() {
+    $dados["compras"] = pegarTodasCompras();
+    exibir("produto/compras", $dados);
+}
+?>
